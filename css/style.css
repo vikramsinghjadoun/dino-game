@@ -1,0 +1,44 @@
+/* dinosoure game make sense */
+.game{
+    background-color: rgb(244, 244, 241);
+    height: max-content;
+    position: relative;
+    height: 500px;
+    margin: 10px;
+    width:70%;
+    box-shadow: #333;
+}
+.dino{
+    position: absolute;
+    width: 50px;
+    height:70px;
+    bottom: 0px;
+}
+.set{
+    object-fit: cover;
+    width:50px;
+    height:70px;
+}
+.grid{
+    border: #333 solid 2px;
+}
+.obstacle {
+    position: absolute;
+    width : 50px;
+    height:60px;
+    background-image: url('../image/png-clipart-game-off-game-jam-gamedev-net-video-game-cactus-game-angle.png');
+    background-size: 50px 50px ;
+    background-repeat: no-repeat;
+    bottom : 0px;
+}
+.show{
+    text-align: center;
+    font-size: 50px;
+    font-family: monospace;
+}
+.fix{
+    border: 2px solid;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;  
+}
